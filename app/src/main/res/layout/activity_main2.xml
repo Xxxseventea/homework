@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <ImageView
+        android:id="@+id/backgroud"
+        android:layout_width="385dp"
+        android:layout_height="672dp"
+        android:gravity="center"
+        android:scaleType="fitStart"
+        android:src="@drawable/bg_main" />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_icon"
+        android:layout_marginTop="140dp"/>
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:background="@drawable/shape"
+        android:layout_marginTop="275dp"
+        android:layout_marginLeft="80dp"
+        android:gravity="center"
+        android:text="手机号登陆"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="330dp"
+        android:layout_alignLeft="@id/b1"
+        android:background="@drawable/shape"
+        android:text="注册"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimary" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="其他登陆方式"
+        android:textSize="17dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="500dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="QQ"
+        android:textColor="#9D9D9D"
+        android:textSize="18dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="600dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="微信"
+        android:textColor="#9d9d9d"
+        android:textSize="18dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="35dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="微博"
+        android:textColor="#9d9d9d"
+        android:textSize="18dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="235dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="网易邮箱"
+        android:textColor="#9d9d9d"
+        android:textSize="18dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="320dp"/>
+
+    <ImageView
+        android:id="@+id/vx"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_wx"
+        android:layout_marginTop="550dp" />
+
+    <ImageView
+        android:id="@+id/qq"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_qq"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="100dp"/>
+
+    <ImageView
+        android:id="@+id/wb"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_wb"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="550dp"/>
+
+    <ImageView
+        android:id="@+id/wy"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_wy"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="300dp"/>
+
+</RelativeLayout>
