@@ -1,3 +1,3 @@
 ﻿# homework
 redrock作业
-![image](https://github.com/Xxxseventea/homework/raw/master/images/ET[X9WC~5(FZM@@P}QN2ZKP.png)
+![image](https://github.com/Xxxseventea/homework/blob/master/images/%E9%A6%96%E9%A1%B5.png)
